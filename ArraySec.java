@@ -7,7 +7,7 @@ class ArraySec{
         ArrayMain arr1=new ArrayMain(100);
         int elems=10;
         int p;
-        System.out.println("type");
+        System.out.println("Enter the elements: ");
         Scanner obj=new Scanner(System.in);
         try{
             for(p=0;p<elems;p++)
@@ -15,7 +15,7 @@ class ArraySec{
             int c=obj.nextInt();
             arr1.setElem(p,c);
         }
-        
+        System.out.print("The array is : ");
         for(p=0;p<elems;p++)
         {
             System.out.print(arr1.getElem(p)+" ");
